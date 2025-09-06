@@ -1,0 +1,5 @@
+body { font-family: 'Segoe UI', sans-serif; }
+#logo { max-width: 20%; height: 20%; }
+@media (max-width: 768px) {
+  header h1 { font-size: 1.5rem; }
+}
