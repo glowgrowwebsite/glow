@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/all.min.css">
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">-->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <script src="../js/jquery-3.6.0.min.js"></script>
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section --></head>
+<body>
+  <header class="bg-light text-center py-4">
+    <img id="logo" src="../images/logo.png" alt="Glow & Grow" height="80">
+    <h1>Gallery</h1>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">G&G</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html" id="loginBtn">Login</a></li>
+          <li class="nav-item"><a class="nav-link" href="register.html" id="registerBtn">Register</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="container mt-4">
+    <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+  <div id="wowslider-container0">
+  <div class="ws_images"><ul>
+    <li><img src="../images/wowslider/1.jpg" alt="1" title="1" id="wows0_0"/></li>
+    <li><img src="../images/wowslider/10.jpg" alt="10" title="10" id="wows0_1"/></li>
+    <li><img src="../images/wowslider/11.jpg" alt="11" title="11" id="wows0_2"/></li>
+    <li><img src="../images/wowslider/2.jpg" alt="2" title="2" id="wows0_3"/></li>
+    <li><img src="../images/wowslider/3.jpg" alt="3" title="3" id="wows0_4"/></li>
+    <li><img src="../images/wowslider/4.jpg" alt="4" title="4" id="wows0_5"/></li>
+    <li><img src="../images/wowslider/5.jpg" alt="5" title="5" id="wows0_6"/></li>
+    <li><img src="../images/wowslider/6.jpg" alt="6" title="6" id="wows0_7"/></li>
+    <li><img src="../images/wowslider/7.jpg" alt="7" title="7" id="wows0_8"/></li>
+    <li><img src="../images/wowslider/8.jpg" alt="8" title="8" id="wows0_9"/></li>
+    <li><img src="../images/wowslider/9.jpg" alt="9" title="9" id="wows0_10"/></li>
+  </ul></div>
+  <div class="ws_bullets"><div>
+    <a href="#" title="1"><span><img src="../images/data0/tooltips/1.jpg" alt="1"/>1</span></a>
+    <a href="#" title="10"><span><img src="../images/data0/tooltips/10.jpg" alt="10"/>2</span></a>
+    <a href="#" title="11"><span><img src="../images/data0/tooltips/11.jpg" alt="11"/>3</span></a>
+    <a href="#" title="2"><span><img src="../images/data0/tooltips/2.jpg" alt="2"/>4</span></a>
+    <a href="#" title="3"><span><img src="../images/data0/tooltips/3.jpg" alt="3"/>5</span></a>
+    <a href="#" title="4"><span><img src="../images/data0/tooltips/4.jpg" alt="4"/>6</span></a>
+    <a href="#" title="5"><span><img src="../images/data0/tooltips/5.jpg" alt="5"/>7</span></a>
+    <a href="#" title="6"><span><img src="../images/data0/tooltips/6.jpg" alt="6"/>8</span></a>
+    <a href="#" title="7"><span><img src="../images/data0/tooltips/7.jpg" alt="7"/>9</span></a>
+    <a href="#" title="8"><span><img src="../images/data0/tooltips/8.jpg" alt="8"/>10</span></a>
+    <a href="#" title="9"><span><img src="../images/data0/tooltips/9.jpg" alt="9"/>11</span></a>
+  </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">css image slider</a> by WOWSlider.com v9.0</div>
+  <div class="ws_shadow"></div>
+  </div>  
+  <script type="text/javascript" src="engine0/wowslider.js"></script>
+  <script type="text/javascript" src="engine0/script.js"></script>
+  <!-- End WOWSlider.com BODY section -->
+  </section>
+	<section class="container mt-4">
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Glow & Grow. All rights reserved.</p>
+  </footer>
+
+  <!-- Modals -->
+  <div id="modalContainer"></div>
+
+  <!-- Toast -->
+  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+    <div id="toastMsg" class="toast align-items-center text-bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body" id="toastBody">
+          Welcome!
+        </div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/main.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
