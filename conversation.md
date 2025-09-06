@@ -1,0 +1,1 @@
+User requested a full HTML/CSS/JS website for skin and hair care (Glow and Grow), with 5 pages, separate folders, modals, AJAX, contact form with Font Awesome, toast, Bootstrap, jQuery, wowslider, responsiveness, and grid/flexbox layout.
